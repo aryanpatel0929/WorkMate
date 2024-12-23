@@ -1,0 +1,36 @@
+﻿@model ProductAmountPaidClass
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link href="~/css/UserRegistation.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container1">
+        <h1>Products</h1>
+        <form method="post" asp-action="InsertPaidAmount" enctype="multipart/form-data">
+            <div class="form-group">
+                <div class="col">
+                    <label for="ClientName">Client Name:</label>
+                    <input type="text" id="clientName" name="ClientName" required>
+                    <span class="error" asp-validation-for="ClientName"></span>
+                </div>
+                <div class="col">
+                    <label for="AmountPaid">Paid Amount:</label>
+                    <input type="number" id="paidAmount" name="AmountPaid" placeholder="Enter the amount Paid by client" required>
+                    <span class="error" asp-validation-for="AmountPaid"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="Date">Paid Date:</label>
+                    <input type="date" id="deliveryDate" name="Date" placeholder="Enter Paid Date" required>
+                </div>
+            </div>
+            <button type="submit">Add Amount</button>
+        </form>
+    </div>
+</body>
+</html>

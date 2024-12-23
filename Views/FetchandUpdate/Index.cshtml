@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch User Details</title>
+    <style>
+        .mainclass {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .firstsubclass {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .pagename {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .inputbox{
+            padding: 9px 19px;
+            width:35%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" aria-label="Home">👈🏼 Home</a>
+    <div class="mainclass">
+        <div class="firstsubclass">
+            <div class="pagename">
+                <p>Fetch User Details</p>
+            </div>
+        </div>
+        <div>
+            <form asp-action="FetchUSerDetails" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label style="color:black" for="ID">Enter User ID</label>
+                    <input class="inputbox" type="text" id="Id" name="ID">
+                    <button type="submit">Fetch User Details</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

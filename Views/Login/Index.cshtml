@@ -1,0 +1,127 @@
+﻿@model LoginClass
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Page</title>
+    <link href="~/css/login.css" rel="stylesheet"/>
+    <style>
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            height: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top:100px;
+        }
+
+        .image-section {
+            flex: 1;
+            background: linear-gradient(135deg, #6d4aff, #7f5af0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .login-section {
+            flex: 1;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px;
+        }
+
+        .login-section h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        input[type="text"], input[type="password"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        input:focus {
+            border-color: #7f5af0;
+            outline: none;
+            box-shadow: 0 0 5px rgba(127, 90, 240, 0.5);
+        }
+
+        .loginbutton {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #7f5af0;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .loginbutton:hover {
+            background-color: #6d4aff;
+        }
+
+        .forgot-password {
+            margin-top: 10px;
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .forgot-password a {
+            color: #7f5af0;
+            text-decoration: none;
+        }
+
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Image Section -->
+        <div class="image-section">
+            <div>
+                <h2>Login your Account to get full User Experience</h2>
+            </div>
+        </div>
+
+        <!-- Login Section -->
+        <div class="login-section">
+            <h2>Login to Your Account</h2>
+            <form method="post" asp-action="UserLogin">
+                <label for="userEmail">User Email</label>
+                <input type="email" placeholder="Username" name="userEmail" required />
+                <label for="password">Password</label>
+                <input type="text" placeholder="Password" name="password" required  />
+                <button class="loginbutton" type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+﻿@model UserDetails
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link href="~/css/UserRegistation.css" rel="stylesheet"/>
+</head>
+<body>
+    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" aria-label="Home">👈🏼 Home</a>
+    <div class="container1">
+        <h1>User Registration</h1>
+        <form method="post" asp-action="RegisterNewUser" enctype="multipart/form-data">
+            <div class="form-group">
+                <div class="col">
+                    <label for="UserId">User ID:</label>
+                    <input type="text" id="userId" name="UserId" placeholder="Enter User ID" required>
+                    <span class="error" asp-validation-for="UserId"></span>
+                </div>
+                <div class="col">
+                    <label for="UserName">User Name:</label>
+                    <input type="text" id="userName" name="UserName" placeholder="Enter User Name" required>
+                    <span class="error" asp-validation-for="UserId"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="Address">Address:</label>
+                    <textarea id="address" name="Address" placeholder="Enter Address" required></textarea>
+                    <span class="error" asp-validation-for="Address"></span>
+                </div>
+                <div class="col">
+                    <label for="AadhaarCardNumber">Aadhaar/Pan Card Number:</label>
+                    <input type="text" id="aadhaarPan" name="AadhaarCardNumber" placeholder="Enter Aadhaar Card Number" required>
+                    <span class="error" asp-validation-for="AadhaarCardNumber"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="ProfileImage">Profile Picture:</label>
+                    <input type="file" id="profilePicture" name="ProfileImage">
+                    <span class="error" asp-validation-for="ProfileImage"></span>
+                    @Html.HiddenFor(m => m.ProfileImage, new { id = "Base64Image" })
+                </div>
+                <div class="col">
+                    <label for="JoiningDate">Joining Date:</label>
+                    <input type="date" id="joiningDate" name="JoiningDate" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="Age">Age:</label>
+                    <input type="number" id="age" name="Age" placeholder="Enter Age of the user" required>
+                    <span class="error" asp-validation-for="Age"></span>
+                </div>
+                <div class="col">
+                    <label for="Gender">Gender:</label>
+                    <select id="gender" name="Gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="Salary">Salary:</label>
+                    <input type="number" id="salary" name="Salary" placeholder="Enter Salary of the user" required>
+                </div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById('profileImage').addEventListener('change', function (event) {
+            const file = event.target.files[0]; // Get the uploaded file
+            if (file) {
+                const reader = new FileReader(); // Create a FileReader instance
+                reader.onload = function (e) {
+                    const base64String = e.target.result.split(',')[1]; // Get Base64 string
+                    document.getElementById('Base64Image').value = base64String; // Display in textarea
+                };
+                reader.readAsDataURL(file); // Read file as Data URL
+            } else {
+                alert('No file selected');
+            }
+        });
+    </script>
+</body>
+</html>

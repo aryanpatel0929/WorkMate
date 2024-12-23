@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Management</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link href="~/css/layout.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar">
+        <img class="navbar-logo" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg" alt="Logo" />
+        <button class="toggle-button" id="toggleButton">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" aria-label="Home">Home</a>
+            <a class="nav-link" asp-area="" asp-controller="AttendanceTracker" asp-action="Attendance" aria-label="Attendance Tracker">Attendance</a>
+            <a class="nav-link" asp-controller="Product" asp-action="Index" aria-label="Attendance Tracker">Product</a>
+            <a href="#" aria-label="Salary">Salary</a>
+            <a href="#" aria-label="Abouts">Abouts</a>
+        </div>
+    </nav>
+    <main class="maindiv">
+        @RenderBody()
+    </main>
+    <footer>
+        &copy; 2024 - Attendance Management - <a href="#">Privacy</a>
+    </footer>
+
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const navLinks = document.getElementById('navLinks');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

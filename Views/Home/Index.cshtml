@@ -1,0 +1,130 @@
+﻿@model IEnumerable<UserDetails>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive User Attendance Details</title>
+    <link href="~/css/home.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="button-container">
+            <a class="button" asp-controller="CreateNewUser" asp-action="Index">Register New User</a>
+            <a class="button" asp-controller="FetchandUpdate" asp-action="Index">Update User Profile</a>
+        </div>
+        <div class="chart-container">
+            <!-- Box 1: Total No of Employees in Company -->
+            <div class="chart-item">
+                <h3>Total No of Employees</h3>
+                <div class="number">@Model.Count()</div>
+            </div>
+            <!-- Box 2: Total Earn in Year -->
+            <div class="chart-item">
+                <h3>Total Earn in Year</h3>
+                <div class="number">5,000,000</div> 
+            </div>
+            <!-- Box 3: Total Spend in Salary -->
+            <div class="chart-item">
+                <h3>Total Spend in Salary</h3>
+                <div class="number">2,000,000</div> 
+            </div>
+        </div>
+        <div class="chart-container">
+            <!-- Box 4: Total Sale by Month (Graph) -->
+            <div class="chart-item">
+                <h3>Total Sale by Month</h3>
+                <canvas id="saleChart"></canvas>
+            </div>
+            <!-- Box 5: Total Profit by Month (Graph) -->
+            <div class="chart-item">
+                <h3>Total Profit by Month</h3>
+                <canvas id="profitChart"></canvas>
+            </div>
+            <!-- Box 6: Total Product Delivered (Graph) -->
+            <div class="chart-item">
+                <h3>Total Product Delivered</h3>
+                <canvas id="deliveryChart"></canvas>
+            </div>
+        </div>
+        <!-- Employee Table -->
+        <div class="chart-item" style="grid-column: span 4">
+            <h3>Employee Details Table</h3>
+            <div style="overflow-x: auto; width: 100%;">
+                <table id="employeeDetailsTable">
+                    <thead>
+                        <tr>
+                            <th>UserId</th>
+                            <th>UserName</th>
+                            <th>Address</th>
+                            <th>AadhaarCardNumber</th>
+                            <th>Gender</th>
+                            <th>Age</th>
+                            <th>Salary</th>
+                            <th>JoiningDate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.UserId</td>
+                                    <td>@item.UserName</td>
+                                    <td>@item.Address</td>
+                                    <td>@item.AadhaarCardNumber</td>
+                                    <td>@item.Gender</td>
+                                    <td>@item.Age</td>
+                                    <td>@item.Salary</td>
+                                    <td>@item.JoiningDate</td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const saleChart = new Chart(document.getElementById('saleChart'), {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+                datasets: [{
+                    label: 'Sales',
+                    data: [100000, 120000, 140000, 160000, 180000],
+                    borderColor: '#4bc0c0',
+                    fill: false
+                }]
+            }
+        });
+
+        const profitChart = new Chart(document.getElementById('profitChart'), {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+                datasets: [{
+                    label: 'Profit',
+                    data: [50000, 70000, 90000, 120000, 150000],
+                    borderColor: '#ffcd56',
+                    fill: false
+                }]
+            }
+        });
+
+        const deliveryChart = new Chart(document.getElementById('deliveryChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+                datasets: [{
+                    label: 'Products Delivered',
+                    data: [500, 600, 700, 800, 900],
+                    backgroundColor: '#36a2eb'
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
