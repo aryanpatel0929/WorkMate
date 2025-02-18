@@ -1,0 +1,878 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\createnewuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\createnewuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\employeecontrollers\\createnewusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\employeecontrollers\\createnewusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\employeemodel\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\employeemodel\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\shared\\_loadingpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\shared\\_loadingpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\salary\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\salary\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\salarycontrollers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\salarycontrollers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\error\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\error\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\services\\salaryoverviewservices\\fetchdatasalaryoverview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:services\\salaryoverviewservices\\fetchdatasalaryoverview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\logincontrollers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\logincontrollers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\logincontrollers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\logincontrollers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\attendancecontrollers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\attendancecontrollers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\services\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:services\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\fetchandupdate\\userdetailsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\fetchandupdate\\userdetailsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\fetchandupdate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\fetchandupdate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\employeecontrollers\\fetchandupdatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\employeecontrollers\\fetchandupdatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\employeecontrollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\employeecontrollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\attendancemodel\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\attendancemodel\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\generatereport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\generatereport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\productmodels\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\productmodels\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\registerproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\registerproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\productmodels\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\productmodels\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\registerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\registerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\productscontrollers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\productscontrollers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\productscontrollers\\registerproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\productscontrollers\\registerproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\controllers\\productscontrollers\\productamountpaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:controllers\\productscontrollers\\productamountpaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\productamountpaidclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\productamountpaidclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\productamountpaid\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\productamountpaid\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\loginclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\loginclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\wwwroot\\css\\userdetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:wwwroot\\css\\userdetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\wwwroot\\css\\userregistation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:wwwroot\\css\\userregistation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\services\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:services\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\models\\userattendancedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:models\\userattendancedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|c:\\users\\v-patelaryan\\source\\repos\\attendancemanagement\\attendancemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5B63A6C-38ED-46B3-9BC3-04C644A2C876}|AttendanceManagement.csproj|solutionrelative:attendancemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1471185175:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\EmployeeModel\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeModel\\Employee.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\EmployeeModel\\Employee.cs",
+              "RelativeToolTip": "Models\\EmployeeModel\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:11:23.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateNewUserController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\EmployeeControllers\\CreateNewUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeControllers\\CreateNewUserController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\EmployeeControllers\\CreateNewUserController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeControllers\\CreateNewUserController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvyIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:34:16.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:48:02.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-16T10:37:59.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T18:38:52.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T18:53:24.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\CreateNewUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CreateNewUser\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\CreateNewUser\\Index.cshtml",
+              "RelativeToolTip": "Views\\CreateNewUser\\Index.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:34:27.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoadingPartialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Shared\\_LoadingPartialView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoadingPartialView.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Shared\\_LoadingPartialView.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoadingPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T18:38:19.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T19:47:03.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T16:58:07.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T18:27:31.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Salary\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Salary\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Salary\\Index.cshtml",
+              "RelativeToolTip": "Views\\Salary\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T17:10:21.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\home.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\home.css",
+              "RelativeToolTip": "wwwroot\\css\\home.css",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-14T17:03:12.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\LoginControllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginControllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\LoginControllers\\ErrorController.cs",
+              "RelativeToolTip": "Controllers\\LoginControllers\\ErrorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T11:17:20.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Error\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Error\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Error\\Index.cshtml",
+              "RelativeToolTip": "Views\\Error\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T11:18:46.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T18:47:40.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Attendance\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attendance\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Attendance\\Index.cshtml",
+              "RelativeToolTip": "Views\\Attendance\\Index.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T15:36:37.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SalaryController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\SalaryControllers\\SalaryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalaryControllers\\SalaryController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\SalaryControllers\\SalaryController.cs",
+              "RelativeToolTip": "Controllers\\SalaryControllers\\SalaryController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T17:10:06.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\LoginControllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginControllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\LoginControllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginControllers\\LoginController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:51:56.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FetchDataSalaryOverview.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Services\\SalaryOverviewServices\\FetchDataSalaryOverview.cs",
+              "RelativeDocumentMoniker": "Services\\SalaryOverviewServices\\FetchDataSalaryOverview.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Services\\SalaryOverviewServices\\FetchDataSalaryOverview.cs",
+              "RelativeToolTip": "Services\\SalaryOverviewServices\\FetchDataSalaryOverview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:36:30.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\AttendanceControllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceControllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\AttendanceControllers\\AttendanceController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceControllers\\AttendanceController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:36:27.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SQLConnection.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Services\\SQLConnection.cs",
+              "RelativeDocumentMoniker": "Services\\SQLConnection.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Services\\SQLConnection.cs",
+              "RelativeToolTip": "Services\\SQLConnection.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:04:51.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FetchandUpdateController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\EmployeeControllers\\FetchandUpdateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeControllers\\FetchandUpdateController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\EmployeeControllers\\FetchandUpdateController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeControllers\\FetchandUpdateController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAABQwB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:20:03.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\EmployeeControllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeControllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\EmployeeControllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeControllers\\HomeController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAABQwDIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:06:48.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\FetchandUpdate\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FetchandUpdate\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\FetchandUpdate\\Index.cshtml",
+              "RelativeToolTip": "Views\\FetchandUpdate\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwD4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T09:20:15.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserDetailsView.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\FetchandUpdate\\UserDetailsView.cshtml",
+              "RelativeDocumentMoniker": "Views\\FetchandUpdate\\UserDetailsView.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\FetchandUpdate\\UserDetailsView.cshtml",
+              "RelativeToolTip": "Views\\FetchandUpdate\\UserDetailsView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T18:16:10.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\AttendanceModel\\Attendance.cs",
+              "RelativeDocumentMoniker": "Models\\AttendanceModel\\Attendance.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\AttendanceModel\\Attendance.cs",
+              "RelativeToolTip": "Models\\AttendanceModel\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:28:56.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\GenerateReport\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\GenerateReport\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\GenerateReport\\Index.cshtml",
+              "RelativeToolTip": "Views\\GenerateReport\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T10:52:16.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T18:38:48.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\UserDetails.cs",
+              "RelativeDocumentMoniker": "Models\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\UserDetails.cs",
+              "RelativeToolTip": "Models\\UserDetails.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwB4AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:40:38.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\ProductModels\\Products.cs",
+              "RelativeDocumentMoniker": "Models\\ProductModels\\Products.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\ProductModels\\Products.cs",
+              "RelativeToolTip": "Models\\ProductModels\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:35:36.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:28:20.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterProduct.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\RegisterProduct.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterProduct.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\RegisterProduct.cs",
+              "RelativeToolTip": "Models\\RegisterProduct.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwC0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T10:38:22.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\RegisterProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\RegisterProduct\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\RegisterProduct\\Index.cshtml",
+              "RelativeToolTip": "Views\\RegisterProduct\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T10:36:36.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\ProductsControllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsControllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\ProductsControllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductsControllers\\ProductController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwBwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T10:23:20.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\ProductModels\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\ProductModels\\Client.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\ProductModels\\Client.cs",
+              "RelativeToolTip": "Models\\ProductModels\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:31:42.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RegisterProductController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\ProductsControllers\\RegisterProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsControllers\\RegisterProductController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\ProductsControllers\\RegisterProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductsControllers\\RegisterProductController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvzQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T10:36:21.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAIBJwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T10:23:31.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductAmountPaidController.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\ProductsControllers\\ProductAmountPaidController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsControllers\\ProductAmountPaidController.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Controllers\\ProductsControllers\\ProductAmountPaidController.cs",
+              "RelativeToolTip": "Controllers\\ProductsControllers\\ProductAmountPaidController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAIBJwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:48:47.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\ProductAmountPaid\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProductAmountPaid\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\ProductAmountPaid\\Index.cshtml",
+              "RelativeToolTip": "Views\\ProductAmountPaid\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:49:00.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductAmountPaidClass.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\ProductAmountPaidClass.cs",
+              "RelativeDocumentMoniker": "Models\\ProductAmountPaidClass.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\ProductAmountPaidClass.cs",
+              "RelativeToolTip": "Models\\ProductAmountPaidClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:47:15.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAIBZwBoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T13:52:06.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-16T09:29:08.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "layout.css",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\layout.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\layout.css",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\layout.css",
+              "RelativeToolTip": "wwwroot\\css\\layout.css",
+              "ViewState": "AgIAABgAAAAAAAAAAIBZwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-14T16:02:49.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginClass.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\LoginClass.cs",
+              "RelativeDocumentMoniker": "Models\\LoginClass.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\LoginClass.cs",
+              "RelativeToolTip": "Models\\LoginClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:40:34.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAADMCAAAAAAAAAAAswEACAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-07T18:27:49.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "userdetails.css",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\userdetails.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\userdetails.css",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\userdetails.css",
+              "RelativeToolTip": "wwwroot\\css\\userdetails.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-13T18:50:29.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-07T18:27:19.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserRegistation.css",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\UserRegistation.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\UserRegistation.css",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\wwwroot\\css\\UserRegistation.css",
+              "RelativeToolTip": "wwwroot\\css\\UserRegistation.css",
+              "ViewState": "AgIAABIAAAAAAAAAAIBZwCEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-08T09:56:16.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T18:53:35.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Services\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Services\\DatabaseConnection.cs",
+              "RelativeToolTip": "Services\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:00:08.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserAttendanceDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\UserAttendanceDetailsModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserAttendanceDetailsModel.cs",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\Models\\UserAttendanceDetailsModel.cs",
+              "RelativeToolTip": "Models\\UserAttendanceDetailsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:51:39.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AttendanceManagement.csproj",
+              "DocumentMoniker": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\AttendanceManagement.csproj",
+              "RelativeDocumentMoniker": "AttendanceManagement.csproj",
+              "ToolTip": "C:\\Users\\v-patelaryan\\source\\repos\\AttendanceManagement\\AttendanceManagement.csproj",
+              "RelativeToolTip": "AttendanceManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T17:34:36.958Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

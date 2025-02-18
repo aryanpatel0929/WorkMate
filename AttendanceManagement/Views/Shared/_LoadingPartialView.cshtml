@@ -1,0 +1,33 @@
+﻿@* Views/_LoadingPartialView.cshtml *@
+<div id="loadingWindow" class="loading-window" style="display: none;">
+    <div class="loading-content">
+        <img src="~/loading.gif" alt="Loading...">
+    </div>
+</div>
+
+<style>
+    .loading-window {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .loading-content {
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .loading-content img {
+        width: 50px;
+        height: 50px;
+    }
+</style>

@@ -1,0 +1,12 @@
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/bin/Debug/net9.0/DapperDataBaseConnection.deps.json
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/bin/Debug/net9.0/DapperDataBaseConnection.dll
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/bin/Debug/net9.0/DapperDataBaseConnection.pdb
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/DapperDataBaseConnection.csproj.AssemblyReference.cache
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/DapperDataBaseConnection.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/DapperDataBaseConnection.AssemblyInfoInputs.cache
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/DapperDataBaseConnection.AssemblyInfo.cs
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/DapperDataBaseConnection.csproj.CoreCompileInputs.cache
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/DapperDataBaseConnection.dll
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/refint/DapperDataBaseConnection.dll
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/DapperDataBaseConnection.pdb
+/Users/aryanpatel/Documents/RamTirathBusinessManagementSystem/DapperDataBaseConnection/obj/Debug/net9.0/ref/DapperDataBaseConnection.dll

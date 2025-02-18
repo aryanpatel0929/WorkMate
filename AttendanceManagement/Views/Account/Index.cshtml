@@ -1,0 +1,163 @@
+@model RegisterClass
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link href="~/css/login.css" rel="stylesheet"/>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            max-width: 1000px;
+            height: 600px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 100px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-section {
+            flex: 1;
+            background: linear-gradient(135deg, #6d4aff, #7f5af0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .register-section {
+            flex: 1;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .register-section h2 {
+            margin-bottom: 10px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="radio"] {
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #cccccc;
+            border-radius: 2px;
+            width: 100%;
+        }
+
+        input:focus {
+            border-color: #7f5af0;
+            outline: none;
+            box-shadow: 0 0 5px rgba(127, 90, 240, 0.5);
+        }
+
+        .registerbutton {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #7f5af0;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .registerbutton:hover {
+            background-color: #6d4aff;
+        }
+
+        .form-group {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .form-group a {
+            color: #7f5af0;
+            text-decoration: none;
+        }
+
+        .form-group a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Image Section -->
+        <div class="image-section">
+            <div>
+                <h2>Create Your Account to Get Full User Experience</h2>
+            </div>
+        </div>
+
+        <!-- Register Section -->
+        <div class="register-section">
+            <h2>Create Your Account</h2>
+            <form asp-action="RegisterUser" method="post">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-field">
+                    <label asp-for="PersonName" class="form-label">Name</label>
+                    <input type="text" asp-for="PersonName" class="form-input" />
+                    <span asp-validation-for="PersonName" class="text-danger"></span>
+                </div>
+                <div class="form-field">
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input type="email" asp-for="Email" class="form-input" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-field">
+                    <label asp-for="Phone" class="form-label">Phone</label>
+                    <input type="tel" asp-for="Phone" class="form-input" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-field">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input type="password" asp-for="Password" class="form-input" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-field">
+                    <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                    <input type="password" asp-for="ConfirmPassword" class="form-input" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                <div class="form-field">
+                    <label asp-for="Role" class="form-label">Role</label>
+                    <select>
+                        <option value="Admin">Admin</option>
+                        <option value="User">User</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+                <button type="submit" class="registerbutton">Register</button>
+            </form>
+            <span asp-validation-summary="All" class="text-danger"></span>
+            <div class="form-group">
+                Already Registered? <a asp-controller="Login" asp-action="Index">Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

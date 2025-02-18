@@ -1,0 +1,54 @@
+﻿@model Attendance
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link href="~/css/UserRegistation.css" rel="stylesheet" />
+</head>
+<body>
+    <a class="nav-link" asp-area="" asp-controller="Attendance" asp-action="Index" aria-label="Home">👈🏼 Attendance</a>
+    <div class="container1">
+        <h1>User Registration</h1>
+        <form method="post" asp-action="SubmitAttendance" enctype="multipart/form-data">
+            <div class="form-group">
+                <div class="col">
+                    <label for="EmployeeID">Employee Name:</label>
+                    <input type="text" id="employeeID" name="EmployeeID" placeholder="Enter Employee ID" required>
+                    <span class="error" asp-validation-for="EmployeeID"></span>
+                </div>
+                <div class="col">
+                    <label for="Date">Date:</label>
+                    <input type="datetime-local" id="date" name="Date" placeholder="Enter Date" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="IsPresent">Is Present:</label>
+                    <select id="isPresent" name="IsPresent" required>
+                        <option value="">Select option</option>
+                        <option value="true">Yes</option>
+                        <option value="false">No</option>
+                    </select>
+                    <span class="error" asp-validation-for="IsPresent"></span>
+                </div>
+
+                <div class="col">
+                    <label for="WorkingHours">Working Hours:</label>
+                    <input type="number" id="workingHours" name="WorkingHours" placeholder="Enter Working Hours of Employee" required>
+                    <span class="error" asp-validation-for="WorkingHours"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="Remarks">Remarks:</label>
+                    <input type="text" id="remarks" name="Remarks" placeholder="Enter Comments" required>
+                    <span class="error" asp-validation-for="Remarks"></span>
+                </div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿@model EmployeeSalaryPayment
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link href="~/css/UserRegistation.css" rel="stylesheet" />
+</head>
+<body>
+    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" aria-label="Home">👈🏼 Home</a>
+    <div class="container1">
+        <h1>Employee Salary</h1>
+        <form id="salaryForm" method="post" asp-action="AddSalary" enctype="multipart/form-data">
+            <div class="form-group">
+                <div class="col">
+                    <label for="EmployeeID">Employee Name:</label>
+                    <input type="text" id="employeeID" name="EmployeeID" placeholder="Enter Employee ID" required>
+                    <span class="error" asp-validation-for="EmployeeID"></span>
+                </div>
+                <div class="col">
+                    <label for="PaymentDate">Payment Date:</label>
+                    <input type="datetime-local" id="paymentDate" name="PaymentDate" placeholder="Enter Payment Date" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="PaidAmount">Paid Amount:</label>
+                    <input type="number" id="paidAmount" name="PaidAmount" placeholder="Enter Paid Amount" required>
+                    <span class="error" asp-validation-for="PaidAmount"></span>
+                </div>
+                <div class="col">
+                    <label for="PaymentMode">Payment Mode:</label>
+                    <input type="text" id="paymentMode" name="PaymentMode" placeholder="Enter Payment Mode" required>
+                    <span class="error" asp-validation-for="PaymentMode"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="PaymentReceivedBy">Payment Received By:</label>
+                    <input type="text" id="paymentReceivedBy" name="PaymentReceivedBy" placeholder="Enter Name" required>
+                    <span class="error" asp-validation-for="PaymentReceivedBy"></span>
+                </div>
+            </div>
+            <button type="submit">Pay Salary</button>
+        </form>
+    </div>
+    @await Html.PartialAsync("_LoadingPartialView")
+
+    <script>
+        document.getElementById('salaryForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            document.getElementById('loadingWindow').style.display = 'flex';
+
+            const formData = new FormData(this);
+            fetch(this.action, {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        window.location.href = '@Url.Action("Index", "Home")';
+                    } else {
+                        window.location.href = '@Url.Action("Index", "Error")';
+                        document.getElementById('loadingWindow').style.display = 'none';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('loadingWindow').style.display = 'none';
+                });
+        });
+    </script>
+</body>
+</html>
